@@ -131,7 +131,7 @@ const CustomCarousel = () => {
                   className={`absolute inset-0 flex items-center justify-center`}
                 >
                   <div
-                    className={`w-[90vw] sm:w-[70vw] md:w-[40vw] lg:w-[30vw] aspect-[3/4] p-6 rounded-3xl border shadow-xl bg-purple-400/30 backdrop-blur-xl 
+                    className={`w-[80vw] sm:w-[70vw] md:w-[40vw] lg:w-[30vw] aspect-[3/4] p-6 rounded-3xl border shadow-xl bg-purple-400/30 backdrop-blur-xl 
                 text-center flex flex-col justify-between transition-transform duration-700 ease-in-out
                 ${
                   isTop && swipe === "right"

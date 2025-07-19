@@ -40,7 +40,7 @@ const customCarousel2 = () => {
         initial={{ opacity: 0, y: 50, scale: 0.85 }}
         animate={{ opacity: index == 0 ? 0.3 : 1, y: 0, scale: 1 }}
         transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-        className="absolute left-4 md:left-[10%] text-secondary-foreground  z-90 disabled:opacity-30"
+        className="absolute left-4 md:left-[10%] text-secondary-foreground  z-999 disabled:opacity-30"
         disabled={index === 0}
       >
         <ChevronLeft size={48} />
@@ -105,7 +105,7 @@ const customCarousel2 = () => {
           scale: 1,
         }}
         transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-        className="absolute right-4 md:right-[10%] text-secondary-foreground z-10 disabled:opacity-30"
+        className="absolute right-4 md:right-[10%] text-secondary-foreground z-999 disabled:opacity-30"
         disabled={index === cards.length - 1}
       >
         <ChevronRight size={48} />
